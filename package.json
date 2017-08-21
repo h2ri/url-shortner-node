@@ -12,6 +12,9 @@
   ],
   "author": "Michael Hart <michael.hart.au@gmail.com>",
   "license": "MIT",
+  "scripts": {
+   "start": "node server.js"
+ },
   "dependencies": {
     "browserify": "^14.0.0",
     "jquery": "^3.2.1",
