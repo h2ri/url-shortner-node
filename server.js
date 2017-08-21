@@ -94,11 +94,11 @@ http.createServer(function(req, res) {
     res.statusCode = 404
     res.end()
   }
-
+var port = process.env.PORT || 8000
 // The http server listens on port 3001
-}).listen(3001, function(err) {
+}).listen(port, function(err) {
   if (err) throw err
-  console.log('Listening on 3001...')
+  console.log('Listening on ...' + port)
 })
 
 
