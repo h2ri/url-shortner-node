@@ -1,3 +1,4 @@
+var port = process.env.PORT || 8000
 var http = require('http'),
     browserify = require('browserify'),
     literalify = require('literalify'),
@@ -94,7 +95,7 @@ http.createServer(function(req, res) {
     res.statusCode = 404
     res.end()
   }
-var port = process.env.PORT || 8000
+
 // The http server listens on port 3001
 }).listen(port, function(err) {
   if (err) throw err
