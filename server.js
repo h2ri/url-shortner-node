@@ -95,10 +95,10 @@ http.createServer(function(req, res) {
     res.end()
   }
 
-// The http server listens on port 3000
-}).listen(3000, function(err) {
+// The http server listens on port 3001
+}).listen(3001, function(err) {
   if (err) throw err
-  console.log('Listening on 3000...')
+  console.log('Listening on 3001...')
 })
 
 
